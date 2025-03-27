@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    >
+    <form>
+      <h3>cadastro</h3>
+        <input type="text" placeholder="login"id="login">
+        <input type="passaword" placeholder="senha"id="senha">
+        <input type="submit"onclick="logar();return false">
+        
+        </form>
+        <script>
+   function logar (){
+  var login=document.gpteleventbyID ('login').value;
+ var senha=document.getelementbyID ('senha').value;
+
+ if (login=="admin" && senha=="123"){
+      alert ('sucesso');
+       location.href="home.html";
+                    
+          }
+          else{
+     alert ('usuario ou senha incorreta');
+          } 
+        }
+     </script>
+</body>
+</html> <title>Document</title>
+</head>
+<body
