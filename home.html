@@ -1,47 +1,109 @@
-!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Mestre da Pizza</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Pizzaria Shellys</title>
+    <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <div class="logo">
-            <h1>Pizzaria Mestre da Pizza</h1>
-            <p>As melhores pizzas, do jeito que você gosta!</p>
+    <!---navigation--->
+    <nav class="navbar">
+        <h1>Pizzaria Shellys</h1>
+        <UL Class="Nav-links">
+            <li><A href="#início">Bem Vindo(a)!</A></li>
+            <li><A href="#Pizzas Salgadas">Pizzas Salgadas</A></li>
+            <li><A href="#Pizzas Doces">Pizzas Doces</A></li>
+        </UL>
+    </nav>
+
+    <section id="início" class="início">
+        <div class="início">
+            <p>Chegou no paraíso das pizzas! Na Pizzaria Shellys, a única coisa mais gostosa que nossas pizzas é o formato delas: em forma de coração! Sim, você leu certo! Nossas pizzas são caseiras, preparadas com todo carinho e amor. Temos opções doces e salgadas que vão conquistar seu estômago e seu coração. Vem provar!</p>
         </div>
-    </header>
+        <div class="hero-image">
+            <img src="C:\Users\miche\OneDrive\Documentos\ESCOLA\pizzaria\1.png" alt="star" class="star">
+        </div>
+    </section>
 
-    <!-- Seção Principal -->
-    <div class="main-content">
-        <section class="cardapio">
-            <h2>Nosso Cardápio</h2>
-            <ul>
-                <li>Pizza de Calabresa</li>
-                <li>Pizza Margherita</li>
-                <li>Pizza Portuguesa</li>
-                <li>Pizza Frango com Catupiry</li>
-                <li>Pizza de Nutella</li>
-            </ul>
-        </section>
+    <!---pizza salgada--->
+    <section ID="Pizzas Salgadas" class="sal">
 
-        <!-- Promoções -->
-        <section class="promocoes">
-            <h2>Promoções da Semana</h2>
-            <div class="promocao">
-                <h3>Compre 1 pizza grande e ganhe 1 refrigerante grátis!</h3>
-                <p>Não perca esta oferta incrível! Válido até o final da semana.</p>
+        <div class="calabresa-grid">
+            <h1>Pizzas Salgadas</h1>
+            <div class="calabresa-card">
+                <img src="C:\Users\miche\OneDrive\Documentos\ESCOLA\pizzaria\ChatGPT Image 17_04_2025, 17_48_53.png" alt="pizza calabresa" class="calabresa-img">
+                <h3>Pizza de Calabresa</h3>
+                <p>Ingredientes:</p>
+                <ul>
+                    <li>Calabresa</li>
+                    <li>Mussarela</li>
+                    <li>Molho de tomate</li>
+                </ul>
+                <p>Preço: R$30,00</p>
             </div>
-        </section>
-    </div>
+        </div>
+        <div class="marguerita-grid">
+            <div class="marguerita-card">
+                <img src="C:\Users\miche\OneDrive\Documentos\ESCOLA\pizzaria\ChatGPT Image 17_04_2025, 18_07_39.png" alt="pizza marguerita" class="marguerita-img">
+                <h3>Pizza de Marguerita</h3>
+                <p>Ingredientes:</p>
+                <ul>
+                    <li>Tomate</li>
+                    <li>Mussarela</li>
+                    <li>Manjericão</li>
+                </ul>
+                <p>Preço: R$30,00</p>
+            </div>
+        </div>
+        <div class="quatroqueijos-grid">
+            <div class="quatroqueijos-card">
+                <img src="C:\Users\miche\OneDrive\Documentos\ESCOLA\pizzaria\ChatGPT Image 17_04_2025, 18_13_57.png" alt="pizza 4 queijos" class="queijos-img">
+                <h3>Pizza De Quatro Queijos</h3>
+                <p>Ingredientes:</p>
+                <ul>
+                    <li>Mussarela</li>
+                    <li>Parmesão</li>
+                    <li>Gorgonzola</li>
+                    <li>Provolone</li>
+                </ul>
+                <p>Preço: R$35,00</p>
+            </div>
+        </div>
+    </section>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2025 Pizzaria Mestre da Pizza | Todos os direitos reservados.</p>
-    </footer>
+    <!---pizzas doces--->
+    <section ID="Pizzas Doces" class="açúcar">
+        <div class="SensaçãoTropical-grid">
+            <h1>Pizzas Doces</h1>
+            <div class="SensaçãoTropical-card">
+                <img src="C:\Users\miche\OneDrive\Documentos\ESCOLA\pizzaria\ChatGPT Image 17_04_2025, 18_48_28.png" alt="Sensação Tropical" class="SensaçãoTropical-img">
+                <h3>Pizza Sensação Tropical</h3>
+                <p>Ingredientes:</p>
+                <ul>
+                    <li>Creme de avelã com chocolate</li>
+                    <li>Morangos fatiados</li>
+                    <li>Bananas em rodelas</li>
+                    <li>Castanhas picadas</li>
+                </ul>
+                <p>Preço: R$40,00</p>
+            </div>
+        </div>
+        <div class="nute-grid">
+            <div class="nute-card">
+                <img src="C:\Users\miche\OneDrive\Documentos\ESCOLA\pizzaria\ChatGPT Image 17_04_2025, 19_06_53.png" alt="Nutella & Branco" class="nute-img">
+                <h3>Pizza de Nutella & Branco</h3>
+                <p>Ingredientes:</p>
+                <ul>
+                    <li>Creme de avelã</li>
+                    <li>Chocolate branco em raspas e pedaços generosos por cima</li>
+                </ul>
+                <p>Preço: R$35,00</p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

@@ -1,0 +1,419 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/49/67/7d/49677d0ebaf7d4d1e21f6e54bb7005a7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cb63f5;
+    padding: 10px 20px;
+    border: 5px solid #41015d;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar h1 {
+    width: 100%;
+    height: 100%;
+    color: #41015d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.Nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.calabresa-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #41015d;
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.início {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.início div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    margin-left: left;
+}
+
+.início p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #41015d;
+    margin-left: 80px;
+}
+
+.início h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #41015d;
+    margin-left: 80px;
+}
+
+.star {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-right: 80px;
+}
+
+.calabresa-grid h1 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #41015d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Foi utilizada IA mas, foram feitas
+algumas alterações manuais. */
+
+.calabresa-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+    border: 5px solid #41015d;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px #000000(254, 0, 0);
+    padding: 40px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.calabresa-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.calabresa-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.calabresa-card ul li {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calabresa-card ul li::before {
+    position: absolute;
+    left: -25px;
+}
+
+.calabresa-card p {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calabresa-card h3 {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marguerita-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #41015d;
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.marguerita-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border: 5px solid #41015d;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.marguerita-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.marguerita-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.marguerita-card ul li {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marguerita-card ul li::before {
+    position: absolute;
+    left: -25px;
+}
+
+.marguerita-card p {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marguerita-card h3 {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.queijos-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #41015d;
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.quatroqueijos-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border: 5px solid #41015d;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.quatroqueijos-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.quatroqueijos-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.quatroqueijos-card ul li {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quatroqueijos-card ul li::before {
+    position: absolute;
+    left: -25px;
+}
+
+.quatroqueijos-card p {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quatroqueijos-card h3 {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SensaçãoTropical-grid h1 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #41015d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SensaçãoTropical-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #41015d;
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.SensaçãoTropical-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border: 5px solid #41015d;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.SensaçãoTropical-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.SensaçãoTropical-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.SensaçãoTropical-card ul li {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SensaçãoTropical-card ul li::before {
+    position: absolute;
+    left: -25px;
+}
+
+.SensaçãoTropical-card p {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SensaçãoTropical-card h3 {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nute-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #41015d;
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.nute-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    border: 5px solid #41015d;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.nute-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.nute-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.nute-card ul li {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nute-card ul li::before {
+    position: absolute;
+    left: -25px;
+}
+
+.nute-card p {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nute-card h3 {
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
